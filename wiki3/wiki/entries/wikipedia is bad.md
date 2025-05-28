@@ -1,0 +1,1 @@
+wikipedia is bad because it is bad i agree no i disagree

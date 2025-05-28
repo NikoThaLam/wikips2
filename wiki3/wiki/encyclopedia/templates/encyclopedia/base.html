@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>wikipedia.com real no fake </title>
+</head>
+<body>
+    <div id="sidebar">
+        <form action="{% url 'search' %}" method="get">
+            <input type="text" name="q" placeholder="search">
+            <button type="submit">search 4 stuff</button>
+        </form>
+        <a href="{% url 'index' %}">home page</a>
+        <a href="{% url 'new' %}">new page</a>
+        <a href="{% url 'random' %}">random</a>
+    </div>
+
+    <div id="main">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

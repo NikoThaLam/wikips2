@@ -1,0 +1,18 @@
+[project]
+name = "wiki"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "bohrium2b",email = "dzm2026@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4"
+dependencies = [
+    "django (>=5.1.7,<6.0.0)",
+    "markdown2 (>=2.5.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
